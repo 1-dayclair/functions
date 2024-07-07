@@ -86,3 +86,12 @@ console.log(avg);
 // Take an object and increment its age field.
 // Take an object, make a copy, and increment the age field of the copy. Return the copy.
 
+const object = { id: "42", name: "Bruce", occupation: "Knight", age: "41" };
+
+console.log(++object.age);
+
+const anotherObject = { id: "7", name: "Bilbo", occupation: "None", age: "111" };
+
+const copy = {...anotherObject}; 
+console.log(++copy.age); 
+
