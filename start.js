@@ -95,3 +95,11 @@ const anotherObject = { id: "7", name: "Bilbo", occupation: "None", age: "111" }
 const copy = {...anotherObject}; 
 console.log(++copy.age); 
 
+// For each of the functions above, if the object does not yet contain an age field, create one and set it to 0. Also, add (or modify, as appropriate) an updated_at field that stores a Date object with the current time.
+
+object.updated_at = "July 7, 2024, 3:24 PM, EST"; 
+console.log(object);
+
+anotherObject.updated_at = "July 7, 2024, 3:26 PM, EST"; 
+console.log(anotherObject); 
+
